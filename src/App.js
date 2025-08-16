@@ -26,7 +26,7 @@ function App() {
             <li><Link to={"/Review"} className='text'>Review</Link></li>
           </ul>
 
-          <ul className="login">
+<ul className="login">
             <li><Link to={"/"}>Signup</Link></li>
             <li><Link to={"/Login"}>Login</Link></li>
           </ul>
@@ -38,7 +38,8 @@ function App() {
           <Route path="/Products" element={<Products />} />
           <Route path="/ProductDetails" element={<ProductDetails/>} /> {/* ✅ fixed usage */}
           <Route path="/" element={<Signup />} />
-          <Route path="/Cart" element={<Cart />} />
+           <Route path="/Cart" element={<Cart />} />
+        
         </Routes>
       </BrowserRouter>
     </>
