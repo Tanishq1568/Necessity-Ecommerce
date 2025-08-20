@@ -6,7 +6,7 @@ import Products from "./Components/Products";
 import Signup from "./Components/Signup";
 import Cart from "./Components/Cart";
 import image from "../src/images/icon.jpg"
-import ProductDetails from "./Components/Productdetails";
+import ProductDetails from "./Components/ProductDetails";
 
 function App() {
   let details = {
