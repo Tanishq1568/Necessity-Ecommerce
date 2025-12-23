@@ -1,5 +1,5 @@
 import "./App.css";
-import { Review } from "./Components/Review";
+// import { Review } from "./Components/Review";
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import { Login } from "./Components/Login";
 import Products from "./Components/Products";
@@ -22,7 +22,7 @@ function App() {
         <nav className="nav">
           <ul className="nav-links">
             <li><Link to={"/Products"} className='text'>Products</Link></li>
-            <li><Link to={"/Review"} className='text'>Review</Link></li>
+            {/* <li><Link to={"/Review"} className='text'>Review</Link></li> */}
           </ul>
 
 <ul className="login">
@@ -32,7 +32,7 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path="/Review" element={<Review />} />
+          {/* <Route path="/Review" element={<Review />} /> */}
           <Route path="/Login" element={<Login />} />
           <Route path="/Products" element={<Products />} />
           <Route path="/ProductDetails" element={<ProductDetails/>} /> {/* ✅ fixed usage */}
